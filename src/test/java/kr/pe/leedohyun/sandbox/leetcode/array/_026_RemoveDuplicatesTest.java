@@ -4,9 +4,6 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-/**
- * 26. Remove Duplicates from Sorted Array
- */
 public class _026_RemoveDuplicatesTest {
     _026_RemoveDuplicates test = new _026_RemoveDuplicates();
 

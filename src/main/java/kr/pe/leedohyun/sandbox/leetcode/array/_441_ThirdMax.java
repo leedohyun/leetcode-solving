@@ -5,7 +5,7 @@ import java.util.Set;
 import java.util.TreeSet;
 
 /**
- * 414. Third Maximum Number
+ * 414. Third Maximum Number (Easy)
  */
 public class _441_ThirdMax {
     public int thirdMax(int[] nums) {

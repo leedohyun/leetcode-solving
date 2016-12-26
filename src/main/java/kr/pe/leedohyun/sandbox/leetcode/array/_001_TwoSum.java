@@ -3,6 +3,9 @@ package kr.pe.leedohyun.sandbox.leetcode.array;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * 001. Two Sum (Easy)
+ */
 public class _001_TwoSum {
     /**
      * O(N) solution
