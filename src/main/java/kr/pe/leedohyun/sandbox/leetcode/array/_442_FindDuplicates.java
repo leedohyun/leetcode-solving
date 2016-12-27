@@ -1,18 +1,28 @@
 package kr.pe.leedohyun.sandbox.leetcode.array;
 
+import java.util.LinkedList;
 import java.util.List;
+import java.util.Set;
+import java.util.TreeSet;
 
 /**
  * 442. Find All Duplicates in an Array (Medium)
+ * 나왔던 숫자의 인덱스를 찾아서 음수로 처리하고 또 나오는 경우가 중복
+ * 값을 체크할 때는 절대값으로 처리가 필요
  */
 public class _442_FindDuplicates {
     public List<Integer> findDuplicates(int[] nums) {
-        int max = Integer.MIN_VALUE;
         int N = nums.length;
+        Set<Integer> dupNums = new TreeSet<Integer>();
         for (int i = 0; i < N; i++) {
-            max = Math.max(nums[i], max);
+            int val = Math.abs(nums[i]) - 1;
+            if (nums[val] > 0) {
+                nums[val] = -nums[val];
+            } else {
+                dupNums.add(val + 1);
+            }
         }
-        return null;
+        return new LinkedList<Integer>(dupNums);
     }
 }
 
