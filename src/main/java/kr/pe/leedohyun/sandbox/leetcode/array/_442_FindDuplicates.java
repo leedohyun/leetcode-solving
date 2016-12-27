@@ -2,8 +2,6 @@ package kr.pe.leedohyun.sandbox.leetcode.array;
 
 import java.util.LinkedList;
 import java.util.List;
-import java.util.Set;
-import java.util.TreeSet;
 
 /**
  * 442. Find All Duplicates in an Array (Medium)
@@ -13,7 +11,7 @@ import java.util.TreeSet;
 public class _442_FindDuplicates {
     public List<Integer> findDuplicates(int[] nums) {
         int N = nums.length;
-        Set<Integer> dupNums = new TreeSet<Integer>();
+        List<Integer> dupNums = new LinkedList<Integer>();
         for (int i = 0; i < N; i++) {
             int val = Math.abs(nums[i]) - 1;
             if (nums[val] > 0) {
@@ -22,7 +20,7 @@ public class _442_FindDuplicates {
                 dupNums.add(val + 1);
             }
         }
-        return new LinkedList<Integer>(dupNums);
+        return dupNums;
     }
 }
 
