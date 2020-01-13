@@ -1,4 +1,4 @@
-package kr.pe.leedohyun.sandbox.leetcode.array;
+package kr.pe.leedohyun.sandbox.leetcode.medium;
 
 import java.util.LinkedList;
 import java.util.List;

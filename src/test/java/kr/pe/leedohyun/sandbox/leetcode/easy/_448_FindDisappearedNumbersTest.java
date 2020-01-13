@@ -1,5 +1,6 @@
-package kr.pe.leedohyun.sandbox.leetcode.array;
+package kr.pe.leedohyun.sandbox.leetcode.easy;
 
+import kr.pe.leedohyun.sandbox.leetcode.easy._448_FindDisappearedNumbers;
 import org.junit.Test;
 
 import java.util.List;

@@ -1,4 +1,4 @@
-package kr.pe.leedohyun.sandbox.leetcode.dp;
+package kr.pe.leedohyun.sandbox.leetcode.easy;
 
 /**
  * currMax -> 현재까지 계산과정에서 나온 최대값 (현 시점에서 optimal이 아님)

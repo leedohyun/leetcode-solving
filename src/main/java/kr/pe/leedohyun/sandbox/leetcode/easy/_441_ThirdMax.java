@@ -1,4 +1,4 @@
-package kr.pe.leedohyun.sandbox.leetcode.array;
+package kr.pe.leedohyun.sandbox.leetcode.easy;
 
 import java.util.HashSet;
 import java.util.Set;

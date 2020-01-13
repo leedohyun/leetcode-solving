@@ -1,4 +1,4 @@
-package kr.pe.leedohyun.sandbox.leetcode.array;
+package kr.pe.leedohyun.sandbox.leetcode.easy;
 
 import org.junit.Test;
 

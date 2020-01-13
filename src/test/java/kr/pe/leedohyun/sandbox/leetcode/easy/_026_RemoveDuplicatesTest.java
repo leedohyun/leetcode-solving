@@ -1,5 +1,6 @@
-package kr.pe.leedohyun.sandbox.leetcode.array;
+package kr.pe.leedohyun.sandbox.leetcode.easy;
 
+import kr.pe.leedohyun.sandbox.leetcode.easy._026_RemoveDuplicates;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

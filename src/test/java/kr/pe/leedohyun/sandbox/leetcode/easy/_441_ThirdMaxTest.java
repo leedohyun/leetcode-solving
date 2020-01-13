@@ -1,5 +1,6 @@
-package kr.pe.leedohyun.sandbox.leetcode.array;
+package kr.pe.leedohyun.sandbox.leetcode.easy;
 
+import kr.pe.leedohyun.sandbox.leetcode.easy._441_ThirdMax;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

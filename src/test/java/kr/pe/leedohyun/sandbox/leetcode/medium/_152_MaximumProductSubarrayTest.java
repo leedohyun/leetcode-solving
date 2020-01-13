@@ -1,5 +1,6 @@
-package kr.pe.leedohyun.sandbox.leetcode.dp;
+package kr.pe.leedohyun.sandbox.leetcode.medium;
 
+import kr.pe.leedohyun.sandbox.leetcode.medium._152_MaximumProductSubarray;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

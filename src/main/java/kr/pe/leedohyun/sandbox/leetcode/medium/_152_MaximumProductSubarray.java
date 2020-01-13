@@ -1,4 +1,4 @@
-package kr.pe.leedohyun.sandbox.leetcode.dp;
+package kr.pe.leedohyun.sandbox.leetcode.medium;
 
 /**
  * [2, 3, -2, 4] -> [2, 3] = 6

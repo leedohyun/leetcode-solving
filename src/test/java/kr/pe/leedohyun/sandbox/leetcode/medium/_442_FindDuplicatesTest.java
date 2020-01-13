@@ -1,5 +1,6 @@
-package kr.pe.leedohyun.sandbox.leetcode.array;
+package kr.pe.leedohyun.sandbox.leetcode.medium;
 
+import kr.pe.leedohyun.sandbox.leetcode.medium._442_FindDuplicates;
 import org.junit.Test;
 
 import java.util.List;
